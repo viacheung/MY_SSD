@@ -1,0 +1,36 @@
+COCO results:
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.737
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.922
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.883
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.192
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.444
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.752
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.752
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.787
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.787
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.237
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.526
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.804
+
+mAP(IoU=0.5) for each category:
+ bus_stop       : 0.9306930693069307
+ do_not_enter   : 1.0
+ do_not_stop    : 0.9379885356956748
+ do_not_turn_l  : 0.8974956319161327
+ do_not_turn_r  : 0.9617589289293305
+ do_not_u_turn  : 0.9207920792079208
+ enter_left_lane: 0.8514851485148515
+ green_light    : 0.914902574825089
+ left_right_lane: 1.0
+ no_parking     : 0.9203206034889203
+ parking        : 0.9086438249088066
+ ped_crossing   : 1.0
+ ped_zebra_cross: 0.993145468392993
+ railway_crossing: 1.0
+ red_light      : 0.6482179428066892
+ stop           : 1.0
+ t_intersection_l: 1.0
+ traffic_light  : 1.0
+ u_turn         : 0.8867404387497575
+ warning        : 1.0
+ yellow_light   : 0.597770197187786
